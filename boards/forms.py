@@ -1,6 +1,6 @@
 from django import forms
 
-from boards.models import Topic
+from .models import Topic
 
 
 class NewTopicForm(forms.ModelForm):
@@ -17,4 +17,4 @@ class NewTopicForm(forms.ModelForm):
 
     class Meta:
         model = Topic
-        fields = ['subject', 'message']
+        fields = ('subject', 'message')

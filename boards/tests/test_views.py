@@ -5,13 +5,13 @@ from django.urls import (
     resolve,
 )
 
-from boards.forms import NewTopicForm
-from boards.models import (
+from ..forms import NewTopicForm
+from ..models import (
     Board,
     Topic,
     Post,
 )
-from boards.views import (
+from ..views import (
     home,
     board_topics,
     new_topic,

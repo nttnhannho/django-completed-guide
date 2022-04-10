@@ -8,7 +8,6 @@ from django.shortcuts import (
 from .forms import NewTopicForm
 from .models import (
     Board,
-    Topic,
     Post,
 )
 
